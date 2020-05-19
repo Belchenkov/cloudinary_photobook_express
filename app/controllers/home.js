@@ -9,7 +9,7 @@ module.exports = (app) => {
 router.get('/', (req, res, next) => {
   const articles = [new Article(), new Article()];
   res.render('index', {
-    title: 'Generator-Express MVC',
+    title: 'PhotoBook',
     articles: articles
   });
 });
